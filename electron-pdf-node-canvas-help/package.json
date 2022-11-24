@@ -4,11 +4,13 @@
     "description": "hello world",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "rebuild": "electron-rebuild -f -w pdfjs-dist"
     },
     "author": "Murf",
     "license": "MIT",
     "devDependencies": {
+        "@electron/rebuild": "3.2.10",
         "electron": "21.2.2"
     },
     "dependencies": {
