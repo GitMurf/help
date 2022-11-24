@@ -1,0 +1,17 @@
+{
+    "name": "my-electron-app",
+    "version": "1.0.0",
+    "description": "hello world",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Murf",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "21.2.2"
+    },
+    "dependencies": {
+        "pdfjs-dist": "3.0.279"
+    }
+}
