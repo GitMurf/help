@@ -18,12 +18,12 @@
     - Now click `Install` and wait for the install to complete.
 3. You should now Reboot your computer to ensure all the new tools are available.
 4. Download the GTK 2 bundle (MUST be GTK2 and NOT GTK3) for [Win32](https://ftp.gnome.org/pub/GNOME/binaries/win32/gtk+/2.24/gtk+-bundle_2.24.10-20120208_win32.zip) or [Win64](https://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip). Unzip the contents to `C:\GTK`. (see [here](https://github.com/Automattic/node-canvas/wiki/Installation:-Windows#2-installing-gtk-2) for more info)
-    - NOTE: I have included the win64 version of GTK2 in this repo in the `resources` folder: `gtk+-bundle_2.22.1-20101229_win64.zip`
+    - NOTE: I have included the win64 version of GTK2 in this repo in the `resources` folder [here](https://github.com/GitMurf/help/tree/main/electron-pdf-node-canvas-help/resources): `gtk+-bundle_2.22.1-20101229_win64.zip`
     - After download and extraction, it should look like this: ![GTK2 folder structure](https://user-images.githubusercontent.com/64155612/206803337-127c98b1-47e2-4c26-9f64-fdbe3168b1ea.jpg)
 5. Clone this repository using: `https://github.com/GitMurf/help.git`
 6. Now follow the code block below (PowerShell) to install the project and run it for the first time (which will give you the error as described here: https://github.com/GitMurf/help/issues/1 which leads to my post here about the goals to fix: https://github.com/GitMurf/help/issues/2)
 
-**IMPORTANT**: You MUST follow steps 1 - 3 above before running the code below.
+**IMPORTANT**: You MUST follow steps 1 - 4 above before running the code below.
 
 ```powershell
 cd "CLONED-REPO-LOCAL-DIRECTORY\electron-pdf-node-canvas-help"
